@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Navbar, Nav, NavItem, Button, Image } from "react-bootstrap";
-import logo from './images/logo.svg'
+import logo from "./images/logo.svg";
 import "./Header.css";
 
 export default class Header extends Component {
@@ -9,7 +9,7 @@ export default class Header extends Component {
       <Navbar inverse collapseOnSelect>
         <Navbar.Header>
           <Navbar.Brand>
-          <Image src={logo} />
+            <Image src={logo} />
           </Navbar.Brand>
           <Navbar.Toggle />
         </Navbar.Header>
